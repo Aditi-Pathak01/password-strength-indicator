@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 90%;
+  padding: 10px 25px;
+  margin: 300px auto;
+  border-radius: 25px;
+  border: 3px solid black;
+  position: relative;
+}
+#input {
+  height: 40px;
+  font-size: 1rem;
+  flex: 1;
+  outline: none;
+  border: none;
+}
+#input-box img {
+  width: 40px;
+}
+#msg {
+  position: absolute;
+  bottom: -30px;
+  left: 15px;
+  display: none;
+}
